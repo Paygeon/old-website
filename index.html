@@ -14,6 +14,7 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/paygeon-main.webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/header.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
@@ -22,6 +23,7 @@
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-DTQYR4W3EL"></script>
+  <script src="js/header.js" type="text/javascript" defer="defer"></script>
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-DTQYR4W3EL', {'anonymize_ip': false});</script>
   <script defer="defer" charset="UTF-8" src="https://bundle.notice.studio/index.js"></script>
 </head>
@@ -53,34 +55,82 @@
       </div>
     </div>
   </div>
-  <header id="HERO" class="home-hero">
-    <div class="hero-wrapper">
-      <div class="container-1200 hero">
-        <div class="hero-title-box">
-          <div class="alt-text">stop setting up payment workflows</div>
-          <h1 class="main-heading left">Don&#x27;t Hire a Payments Team, Use <span class="text-span-28">Paygeon</span>!</h1>
-          <p class="pg-18 max-500">Visualize your personal &amp; business health with concrete credit data that you can pull into any report or presentation</p>
-          <div class="div-block-81">
-            <a href="#GET-IN-TOUCH" class="button-orange w-button">learn more</a>
-            <a href="demo.html" class="button-orange ghost w-button">book a demo</a>
-          </div>
-        </div>
-        <div id="w-node-_0b93359e-213c-0a36-351c-60f9d81e68f7-c35cf343" class="hero-image-wrapper">
-          <a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="images/Macbook-Air-2022.png" loading="lazy" width="222" sizes="222px" alt="" srcset="images/Macbook-Air-2022-p-500.png 500w, images/Macbook-Air-2022-p-800.png 800w, images/Macbook-Air-2022-p-1080.png 1080w, images/Macbook-Air-2022-p-1600.png 1600w, images/Macbook-Air-2022-p-2000.png 2000w, images/Macbook-Air-2022.png 2280w" class="image-136">
-            <script type="application/json" class="w-json">{
-  "items": [
-    {
-      "url": "https://www.youtube.com/watch?v=v_UzMDw3qJY",
-      "originalUrl": "https://www.youtube.com/watch?v=v_UzMDw3qJY",
-      "width": 940,
-      "height": 528,
-      "thumbnailUrl": "https://i.ytimg.com/vi/v_UzMDw3qJY/hqdefault.jpg",
-      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fv_UzMDw3qJY%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dv_UzMDw3qJY&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fv_UzMDw3qJY%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
-      "type": "video"
-    }
-  ],
-  "group": ""
-}</script>
+     
+  <canvas id="gradient-canvas"></canvas>
+<div class="title"></>
+  <div class="hero-title-box snipcss-oAx6q">
+  <div class="alt-text">
+    stop setting up payment workflows
+  </div>
+  <h1 class="main-heading left">
+    Don't Hire a Payments Team, Use 
+    <span class="text-span-28">
+      Paygeon
+    </span>
+    !
+  </h1>
+  <p class="pg-18 max-500">
+    Visualize your personal &amp; business health with concrete credit data that you can pull into any report or presentation
+  </p>
+  <div class="div-block-81">
+    <a href="#GET-IN-TOUCH" class="button-orange w-button">
+      learn more
+    </a>
+    <a href="/demo" class="button-orange ghost w-button">
+      book a demo
+    </a>
+  </div>
+</div>
+<div class="main initial animate preserve-animation snipcss-8AO5q">
+  <div class="row clearfix">
+    <div id="a1-logo" class="column col-sm-6 style-cdkUI" onmouseenter="InvoiceModel.dimBackground(this)" onmouseleave="InvoiceModel.removeDimEffect(this)" onclick="InvoiceModel.focusCard(this)">
+      <img src="https://webstatic.chargebee.com/assets/web/585/images/recurring-billing/anatomy-of-an-invoice/logo.svg" alt="">
+      <div class="address">
+        <img src="https://webstatic.chargebee.com/assets/web/585/images/recurring-billing/anatomy-of-an-invoice/address.svg" alt="">
+      </div>
+    </div>
+    <div class="col-sm-3">
+    </div>
+    <div id="a2-invoice" class="column col-sm-3 style-CRXrh" onmouseenter="InvoiceModel.dimBackground(this)" onmouseleave="InvoiceModel.removeDimEffect(this)" onclick="InvoiceModel.focusCard(this)">
+      <img src="https://webstatic.chargebee.com/assets/web/585/images/recurring-billing/anatomy-of-an-invoice/invoice.svg" alt="">
+    </div>
+  </div>
+  <div class="row clearfix">
+    <div id="a3-billedto" class="column col-sm-8 style-mxC5z" onmouseenter="InvoiceModel.dimBackground(this)" onmouseleave="InvoiceModel.removeDimEffect(this)" onclick="InvoiceModel.focusCard(this)">
+      <img src="https://webstatic.chargebee.com/assets/web/585/images/recurring-billing/anatomy-of-an-invoice/new-billing-slice-3.svg" alt="">
+    </div>
+    <div id="a4-subscription" class="column col-sm-4 style-hRqRl" onmouseenter="InvoiceModel.dimBackground(this)" onmouseleave="InvoiceModel.removeDimEffect(this)" onclick="InvoiceModel.focusCard(this)">
+      <img src="https://webstatic.chargebee.com/assets/web/585/images/recurring-billing/anatomy-of-an-invoice/subscription.svg" alt="">
+    </div>
+  </div>
+  <div class="row clearfix">
+    <div id="a5-table-head" class="column col-sm-12 style-C2t2Y" onmouseenter="InvoiceModel.dimBackground(this)" onmouseleave="InvoiceModel.removeDimEffect(this)" onclick="InvoiceModel.focusCard(this)">
+      <img src="https://webstatic.chargebee.com/assets/web/585/images/recurring-billing/anatomy-of-an-invoice/new-01.svg" alt="">
+    </div>
+  </div>
+  <div class="row clearfix">
+    <div id="a6-table-coupon" class="column col-sm-7 style-AKqP1" onmouseenter="InvoiceModel.dimBackground(this)" onmouseleave="InvoiceModel.removeDimEffect(this)" onclick="InvoiceModel.focusCard(this)">
+      <img src="https://webstatic.chargebee.com/assets/web/585/images/recurring-billing/anatomy-of-an-invoice/new-02.svg" alt="">
+    </div>
+    <div id="a7-table-footer" class="column col-sm-5 style-JedEw" onmouseenter="InvoiceModel.dimBackground(this)" onmouseleave="InvoiceModel.removeDimEffect(this)" onclick="InvoiceModel.focusCard(this)">
+      <img src="https://webstatic.chargebee.com/assets/web/585/images/recurring-billing/anatomy-of-an-invoice/new-03.svg" alt="">
+    </div>
+  </div>
+  <div class="row clearfix">
+    <div id="a8-payment-detail" class="column col-sm-8 style-W24mz" onmouseenter="InvoiceModel.dimBackground(this)" onmouseleave="InvoiceModel.removeDimEffect(this)" onclick="InvoiceModel.focusCard(this)">
+      <img src="https://webstatic.chargebee.com/assets/web/585/images/recurring-billing/anatomy-of-an-invoice/payment-detail.svg" alt="">
+    </div>
+  </div>
+  <div class="row clearfix">
+    <div id="a9-notes" class="column col-sm-6 style-KmxcH" onmouseenter="InvoiceModel.dimBackground(this)" onmouseleave="InvoiceModel.removeDimEffect(this)" onclick="InvoiceModel.focusCard(this)">
+      <img src="https://webstatic.chargebee.com/assets/web/585/images/recurring-billing/anatomy-of-an-invoice/notes.svg" alt="">
+    </div>
+  </div>
+</div>
+
+
+  <img src="https://uploads-ssl.webflow.com/60a3ffd129692a1a4231c2d0/610039fa71d7bf3a12cf6628_Triangule%20BG%203.svg"</>
+       
           </a>
         </div>
       </div><img src="images/BG-grey-2.png" loading="lazy" alt="" class="beige-hero-bg">

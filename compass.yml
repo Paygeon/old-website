@@ -1,0 +1,17 @@
+name: website
+id: ari:cloud:compass:661ab2fa-64d7-4e7f-9845-51031aa8cf12:component/bc8e4401-1b7c-4d9c-b496-da836ca3f5c0/0bc4e184-9406-4e79-8be1-854b6cea8def
+description: null
+configVersion: 1
+typeId: WEBSITE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/Paygeon/website
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:html
+  - source:github
+customFields: null
